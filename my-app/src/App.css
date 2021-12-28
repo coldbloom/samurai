@@ -1,0 +1,41 @@
+.app-wrapper {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  
+
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: yellowgreen;
+}
+
+.header {
+  grid-area: h;
+  background-color: aquamarine;
+}
+
+.header img {
+  width: 20px;
+}
+
+.nav {
+  grid-area: n;
+  background-color: brown;
+}
+
+.content {
+  grid-area: c;
+  background-color: yellowgreen;
+}
+
+.img-beach img {
+  max-width: 800px;
+}

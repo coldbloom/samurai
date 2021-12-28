@@ -1,0 +1,17 @@
+.nav {
+    grid-area: n;
+    background-color: #a52a2a;
+  }
+
+
+
+nav div a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav div a.active {
+    color: gold;
+}
+  
